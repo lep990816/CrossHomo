@@ -1,0 +1,30 @@
+2022-10-01 16:10:36,952 - Output and logs will be saved to experiments/fine_tuning/evaluate.log
+2022-10-01 16:10:36,952 - Creating the dataset...
+2022-10-01 16:10:36,952 - Dataset type: homo, transform type: homo
+2022-10-01 16:10:36,952 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-01 16:10:36,952 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-01 16:27:14,703 - Output and logs will be saved to experiments/fine_tuning/evaluate.log
+2022-10-01 16:27:14,703 - Creating the dataset...
+2022-10-01 16:27:14,703 - Dataset type: homo, transform type: homo
+2022-10-01 16:27:14,703 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-01 16:27:14,704 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-01 16:27:35,628 - Output and logs will be saved to experiments/fine_tuning/evaluate.log
+2022-10-01 16:27:35,628 - Creating the dataset...
+2022-10-01 16:27:35,628 - Dataset type: homo, transform type: homo
+2022-10-01 16:27:35,629 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-01 16:27:35,629 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-01 17:23:56,537 - Output and logs will be saved to experiments/fine_tuning/evaluate.log
+2022-10-01 17:23:56,537 - Creating the dataset...
+2022-10-01 17:23:56,537 - Dataset type: homo, transform type: homo
+2022-10-01 17:23:56,537 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-01 17:23:56,537 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-01 17:55:13,164 - Output and logs will be saved to experiments/fine_tuning/evaluate.log
+2022-10-01 17:55:13,165 - Creating the dataset...
+2022-10-01 17:55:13,165 - Dataset type: homo, transform type: homo
+2022-10-01 17:55:13,165 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-01 17:55:13,165 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-01 17:55:45,150 - Output and logs will be saved to experiments/fine_tuning/evaluate.log
+2022-10-01 17:55:45,151 - Creating the dataset...
+2022-10-01 17:55:45,151 - Dataset type: homo, transform type: homo
+2022-10-01 17:55:45,151 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-01 17:55:45,151 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale

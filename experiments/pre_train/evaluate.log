@@ -1,0 +1,330 @@
+2022-10-01 19:04:38,250 - Output and logs will be saved to ./experiments/pre_train/evaluate.log
+2022-10-01 19:04:38,250 - Creating the dataset...
+2022-10-01 19:04:38,250 - Dataset type: homo, transform type: homo
+2022-10-01 19:04:38,250 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-01 19:04:38,251 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-01 19:05:18,515 - Output and logs will be saved to ./experiments/pre_train/evaluate.log
+2022-10-01 19:05:18,516 - Creating the dataset...
+2022-10-01 19:05:18,516 - Dataset type: homo, transform type: homo
+2022-10-01 19:05:18,516 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-01 19:05:18,516 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-01 19:05:34,125 - Loaded models from: ./experiments/pre_train/pre_train.pth
+2022-10-01 19:05:34,125 - Ckpt load: HNet
+2022-10-01 19:05:34,126 - Starting test
+2022-10-01 19:12:12,964 - Output and logs will be saved to ./experiments/pre_train/evaluate.log
+2022-10-01 19:12:12,964 - Creating the dataset...
+2022-10-01 19:12:12,964 - Dataset type: homo, transform type: homo
+2022-10-01 19:12:12,965 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-01 19:12:12,965 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-01 19:12:41,227 - Output and logs will be saved to ./experiments/pre_train/evaluate.log
+2022-10-01 19:12:41,227 - Creating the dataset...
+2022-10-01 19:12:41,227 - Dataset type: homo, transform type: homo
+2022-10-01 19:12:41,228 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-01 19:12:41,228 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-01 19:13:20,804 - Output and logs will be saved to ./experiments/pre_train/evaluate.log
+2022-10-01 19:13:20,804 - Creating the dataset...
+2022-10-01 19:13:20,804 - Dataset type: homo, transform type: homo
+2022-10-01 19:13:20,805 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-01 19:13:20,805 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-01 19:13:36,845 - Loaded models from: ./experiments/pre_train/pre_train.pth
+2022-10-01 19:13:36,846 - Ckpt load: HNet
+2022-10-01 19:13:36,847 - Starting test
+2022-10-01 19:16:26,306 - Output and logs will be saved to experiments/pre_train/evaluate.log
+2022-10-01 19:16:26,307 - Creating the dataset...
+2022-10-01 19:16:26,307 - Dataset type: homo, transform type: homo
+2022-10-01 19:16:26,307 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-01 19:16:26,307 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-01 19:16:56,157 - Loaded models from: experiments/pre_train/pre_train.pth
+2022-10-01 19:16:56,157 - Ckpt load: HNet
+2022-10-01 19:16:56,159 - Starting test
+2022-10-01 19:18:15,481 - Output and logs will be saved to experiments/pre_train/evaluate.log
+2022-10-01 19:18:15,481 - Creating the dataset...
+2022-10-01 19:18:15,481 - Dataset type: homo, transform type: homo
+2022-10-01 19:18:15,482 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-01 19:18:15,482 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-01 19:18:43,231 - Loaded models from: experiments/pre_train/pre_train.pth
+2022-10-01 19:18:43,232 - Ckpt load: HNet
+2022-10-01 19:18:43,234 - Starting test
+2022-10-01 19:23:30,236 - Output and logs will be saved to experiments/pre_train/evaluate.log
+2022-10-01 19:23:30,237 - Creating the dataset...
+2022-10-01 19:23:30,237 - Dataset type: homo, transform type: homo
+2022-10-01 19:23:30,237 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-01 19:23:30,237 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-01 19:23:56,970 - Loaded models from: experiments/pre_train/pre_train.pth
+2022-10-01 19:23:56,970 - Ckpt load: HNet
+2022-10-01 19:23:56,972 - Starting test
+2022-10-01 19:25:16,487 - Output and logs will be saved to experiments/pre_train/evaluate.log
+2022-10-01 19:25:16,487 - Creating the dataset...
+2022-10-01 19:25:16,487 - Dataset type: homo, transform type: homo
+2022-10-01 19:25:16,488 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-01 19:25:16,488 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-01 19:25:34,439 - Output and logs will be saved to experiments/pre_train/evaluate.log
+2022-10-01 19:25:34,439 - Creating the dataset...
+2022-10-01 19:25:34,440 - Dataset type: homo, transform type: homo
+2022-10-01 19:25:34,440 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-01 19:25:34,441 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-01 19:26:02,689 - Loaded models from: experiments/pre_train/pre_train.pth
+2022-10-01 19:26:02,689 - Ckpt load: HNet
+2022-10-01 19:26:02,691 - Starting test
+2022-10-01 19:26:18,975 - Output and logs will be saved to ./experiments/pre_train/evaluate.log
+2022-10-01 19:26:18,975 - Creating the dataset...
+2022-10-01 19:26:18,975 - Dataset type: homo, transform type: homo
+2022-10-01 19:26:18,975 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-01 19:26:18,975 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-01 19:29:13,155 - Output and logs will be saved to ./experiments/pre_train/evaluate.log
+2022-10-01 19:29:13,156 - Creating the dataset...
+2022-10-01 19:29:13,156 - Dataset type: homo, transform type: homo
+2022-10-01 19:29:13,156 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-01 19:29:13,157 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-01 19:29:29,274 - Loaded models from: ./experiments/pre_train/pre_train.pth
+2022-10-01 19:29:29,274 - Ckpt load: HNet
+2022-10-01 19:29:29,276 - Starting test
+2022-10-01 19:38:14,287 - Output and logs will be saved to ./experiments/pre_train/evaluate.log
+2022-10-01 19:38:14,287 - Creating the dataset...
+2022-10-01 19:38:14,287 - Dataset type: homo, transform type: homo
+2022-10-01 19:38:14,288 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-01 19:38:14,288 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-01 19:38:28,158 - Loaded models from: ./experiments/pre_train/pre_train.pth
+2022-10-01 19:38:28,158 - Ckpt load: HNet
+2022-10-01 19:38:28,160 - Starting test
+2022-10-01 19:39:29,500 - Output and logs will be saved to ./experiments/pre_train/evaluate.log
+2022-10-01 19:39:29,500 - Creating the dataset...
+2022-10-01 19:39:29,500 - Dataset type: homo, transform type: homo
+2022-10-01 19:39:29,501 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-01 19:39:29,501 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-01 19:39:43,697 - Loaded models from: ./experiments/pre_train/pre_train.pth
+2022-10-01 19:39:43,697 - Ckpt load: HNet
+2022-10-01 19:39:43,699 - Starting test
+2022-10-01 19:41:33,796 - Output and logs will be saved to ./experiments/pre_train/evaluate.log
+2022-10-01 19:41:33,796 - Creating the dataset...
+2022-10-01 19:41:33,796 - Dataset type: homo, transform type: homo
+2022-10-01 19:41:33,797 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-01 19:41:33,797 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-01 19:41:49,029 - Loaded models from: ./experiments/pre_train/pre_train.pth
+2022-10-01 19:41:49,030 - Ckpt load: HNet
+2022-10-01 19:41:49,032 - Starting test
+2022-10-01 19:46:29,434 - Output and logs will be saved to ./experiments/pre_train/evaluate.log
+2022-10-01 19:46:29,434 - Creating the dataset...
+2022-10-01 19:46:29,434 - Dataset type: homo, transform type: homo
+2022-10-01 19:46:29,434 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-01 19:46:29,434 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-01 19:46:46,548 - Loaded models from: ./experiments/pre_train/pre_train.pth
+2022-10-01 19:46:46,548 - Ckpt load: HNet
+2022-10-01 19:46:46,550 - Starting test
+2022-10-01 19:47:09,242 - Output and logs will be saved to ./experiments/pre_train/evaluate.log
+2022-10-01 19:47:09,242 - Creating the dataset...
+2022-10-01 19:47:09,242 - Dataset type: homo, transform type: homo
+2022-10-01 19:47:09,242 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-01 19:47:09,242 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-01 19:47:22,413 - Loaded models from: ./experiments/pre_train/pre_train.pth
+2022-10-01 19:47:22,413 - Ckpt load: HNet
+2022-10-01 19:47:22,415 - Starting test
+2022-10-01 19:49:53,248 - Output and logs will be saved to ./experiments/pre_train/evaluate.log
+2022-10-01 19:49:53,248 - Creating the dataset...
+2022-10-01 19:49:53,248 - Dataset type: homo, transform type: homo
+2022-10-01 19:49:53,248 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-01 19:49:53,248 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-01 19:50:07,600 - Loaded models from: ./experiments/pre_train/pre_train.pth
+2022-10-01 19:50:07,600 - Ckpt load: HNet
+2022-10-01 19:50:07,602 - Starting test
+2022-10-01 19:51:37,598 - Output and logs will be saved to ./experiments/pre_train/evaluate.log
+2022-10-01 19:51:37,598 - Creating the dataset...
+2022-10-01 19:51:37,598 - Dataset type: homo, transform type: homo
+2022-10-01 19:51:37,598 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-01 19:51:37,598 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-01 19:51:53,754 - Loaded models from: ./experiments/pre_train/pre_train.pth
+2022-10-01 19:51:53,754 - Ckpt load: HNet
+2022-10-01 19:51:53,755 - Starting test
+2022-10-01 19:53:46,021 - Output and logs will be saved to ./experiments/pre_train/evaluate.log
+2022-10-01 19:53:46,021 - Creating the dataset...
+2022-10-01 19:53:46,021 - Dataset type: homo, transform type: homo
+2022-10-01 19:53:46,022 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-01 19:53:46,022 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-01 19:54:04,026 - Loaded models from: ./experiments/pre_train/pre_train.pth
+2022-10-01 19:54:04,027 - Ckpt load: HNet
+2022-10-01 19:54:04,028 - Starting test
+2022-10-01 19:55:58,917 - Output and logs will be saved to ./experiments/pre_train/evaluate.log
+2022-10-01 19:55:58,917 - Creating the dataset...
+2022-10-01 19:55:58,917 - Dataset type: homo, transform type: homo
+2022-10-01 19:55:58,917 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-01 19:55:58,917 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-01 19:56:12,900 - Loaded models from: ./experiments/pre_train/pre_train.pth
+2022-10-01 19:56:12,900 - Ckpt load: HNet
+2022-10-01 19:56:12,902 - Starting test
+2022-10-01 19:57:44,634 - Loss/valid epoch_val 0: 0.3920. RE:0.1830 LT:0.8373 LL:0.4059 SF:0.2563 LF:0.2773 
+2022-10-01 19:57:44,634 - [1m[31mtest Results: [0m
+2022-10-02 10:46:39,917 - Output and logs will be saved to experiments/pre_train/evaluate.log
+2022-10-02 10:46:39,917 - Creating the dataset...
+2022-10-02 10:46:39,917 - Dataset type: homo, transform type: homo
+2022-10-02 10:46:39,917 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-02 10:46:39,918 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-02 10:47:07,898 - Loaded models from: experiments/pre_train/pre_train.pth
+2022-10-02 10:47:07,898 - Ckpt load: HNet
+2022-10-02 10:47:07,901 - Starting test
+2022-10-02 14:51:09,217 - Output and logs will be saved to experiments/pre_train/evaluate.log
+2022-10-02 14:51:09,218 - Creating the dataset...
+2022-10-02 14:51:09,218 - Dataset type: homo, transform type: homo
+2022-10-02 14:51:09,219 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-02 14:51:09,219 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-02 14:51:36,924 - Loaded models from: experiments/pre_train/pre_train.pth
+2022-10-02 14:51:36,925 - Ckpt load: HNet
+2022-10-02 14:51:36,926 - Starting test
+2022-10-02 15:33:09,893 - Output and logs will be saved to experiments/pre_train/evaluate.log
+2022-10-02 15:33:09,894 - Creating the dataset...
+2022-10-02 15:33:09,894 - Dataset type: homo, transform type: homo
+2022-10-02 15:33:09,894 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-02 15:33:09,895 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-02 15:33:37,780 - Loaded models from: experiments/pre_train/pre_train.pth
+2022-10-02 15:33:37,780 - Ckpt load: HNet
+2022-10-02 15:33:37,782 - Starting test
+2022-10-02 15:45:47,440 - Output and logs will be saved to experiments/pre_train/evaluate.log
+2022-10-02 15:45:47,449 - Creating the dataset...
+2022-10-02 15:45:47,449 - Dataset type: homo, transform type: homo
+2022-10-02 15:45:47,450 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-02 15:45:47,450 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-02 15:46:20,445 - Loaded models from: experiments/pre_train/pre_train.pth
+2022-10-02 15:46:20,445 - Ckpt load: HNet
+2022-10-02 15:46:20,448 - Starting test
+2022-10-02 15:47:02,849 - Output and logs will be saved to experiments/pre_train/evaluate.log
+2022-10-02 15:47:02,849 - Creating the dataset...
+2022-10-02 15:47:02,849 - Dataset type: homo, transform type: homo
+2022-10-02 15:47:02,850 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-02 15:47:02,850 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-02 15:47:29,130 - Loaded models from: experiments/pre_train/pre_train.pth
+2022-10-02 15:47:29,131 - Ckpt load: HNet
+2022-10-02 15:47:29,134 - Starting test
+2022-10-02 15:48:03,924 - Output and logs will be saved to ./experiments/pre_train/evaluate.log
+2022-10-02 15:48:03,925 - Creating the dataset...
+2022-10-02 15:48:03,925 - Dataset type: homo, transform type: homo
+2022-10-02 15:48:03,925 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-02 15:48:03,925 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-02 15:48:17,817 - Loaded models from: ./experiments/pre_train/pre_train.pth
+2022-10-02 15:48:17,817 - Ckpt load: HNet
+2022-10-02 15:48:17,820 - Starting test
+2022-10-02 15:49:24,906 - Output and logs will be saved to ./experiments/pre_train/evaluate.log
+2022-10-02 15:49:24,906 - Creating the dataset...
+2022-10-02 15:49:24,906 - Dataset type: homo, transform type: homo
+2022-10-02 15:49:24,906 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-02 15:49:24,906 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-02 15:49:41,984 - Loaded models from: ./experiments/pre_train/pre_train.pth
+2022-10-02 15:49:41,984 - Ckpt load: HNet
+2022-10-02 15:49:41,986 - Starting test
+2022-10-02 15:51:22,070 - Output and logs will be saved to experiments/pre_train/evaluate.log
+2022-10-02 15:51:22,070 - Creating the dataset...
+2022-10-02 15:51:22,070 - Dataset type: homo, transform type: homo
+2022-10-02 15:51:22,071 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-02 15:51:22,071 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-02 15:51:48,470 - Loaded models from: experiments/pre_train/pre_train.pth
+2022-10-02 15:51:48,470 - Ckpt load: HNet
+2022-10-02 15:51:48,472 - Starting test
+2022-10-02 15:53:20,284 - Output and logs will be saved to experiments/pre_train/evaluate.log
+2022-10-02 15:53:20,284 - Creating the dataset...
+2022-10-02 15:53:20,284 - Dataset type: homo, transform type: homo
+2022-10-02 15:53:20,284 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-02 15:53:20,284 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-02 15:53:36,424 - Loaded models from: experiments/pre_train/pre_train.pth
+2022-10-02 15:53:36,424 - Ckpt load: HNet
+2022-10-02 15:53:36,426 - Starting test
+2022-10-02 15:55:45,876 - Loss/valid epoch_val 0: 0.3920. RE:0.1830 LT:0.8373 LL:0.4059 SF:0.2563 LF:0.2773 
+2022-10-02 15:55:45,876 - [1m[31mtest Results: [0m
+2022-10-02 15:55:51,552 - Output and logs will be saved to experiments/pre_train/evaluate.log
+2022-10-02 15:55:51,552 - Creating the dataset...
+2022-10-02 15:55:51,552 - Dataset type: homo, transform type: homo
+2022-10-02 15:55:51,553 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-02 15:55:51,553 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-02 15:56:09,147 - Loaded models from: experiments/pre_train/pre_train.pth
+2022-10-02 15:56:09,148 - Ckpt load: HNet
+2022-10-02 15:56:09,149 - Starting test
+2022-10-02 15:57:32,178 - Output and logs will be saved to experiments/pre_train/evaluate.log
+2022-10-02 15:57:32,178 - Creating the dataset...
+2022-10-02 15:57:32,178 - Dataset type: homo, transform type: homo
+2022-10-02 15:57:32,178 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-02 15:57:32,179 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-02 15:57:48,121 - Loaded models from: experiments/pre_train/pre_train.pth
+2022-10-02 15:57:48,121 - Ckpt load: HNet
+2022-10-02 15:57:48,123 - Starting test
+2022-10-02 15:58:16,235 - Output and logs will be saved to experiments/pre_train/evaluate.log
+2022-10-02 15:58:16,235 - Creating the dataset...
+2022-10-02 15:58:16,235 - Dataset type: homo, transform type: homo
+2022-10-02 15:58:16,236 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-02 15:58:16,236 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-02 15:58:42,250 - Loaded models from: experiments/pre_train/pre_train.pth
+2022-10-02 15:58:42,250 - Ckpt load: HNet
+2022-10-02 15:58:42,252 - Starting test
+2022-10-02 16:01:03,764 - Output and logs will be saved to experiments/pre_train/evaluate.log
+2022-10-02 16:01:03,765 - Creating the dataset...
+2022-10-02 16:01:03,765 - Dataset type: homo, transform type: homo
+2022-10-02 16:01:03,765 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-02 16:01:03,766 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-02 16:01:34,385 - Loaded models from: experiments/pre_train/pre_train.pth
+2022-10-02 16:01:34,385 - Ckpt load: HNet
+2022-10-02 16:01:34,387 - Starting test
+2022-10-02 16:02:16,577 - Output and logs will be saved to experiments/pre_train/evaluate.log
+2022-10-02 16:02:16,577 - Creating the dataset...
+2022-10-02 16:02:16,578 - Dataset type: homo, transform type: homo
+2022-10-02 16:02:16,579 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-02 16:02:16,579 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-02 16:02:45,812 - Loaded models from: experiments/pre_train/pre_train.pth
+2022-10-02 16:02:45,812 - Ckpt load: HNet
+2022-10-02 16:02:45,815 - Starting test
+2022-10-02 16:04:07,192 - Output and logs will be saved to ./experiments/pre_train/evaluate.log
+2022-10-02 16:04:07,192 - Creating the dataset...
+2022-10-02 16:04:07,192 - Dataset type: homo, transform type: homo
+2022-10-02 16:04:07,193 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-02 16:04:07,193 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-02 16:04:23,833 - Loaded models from: ./experiments/pre_train/pre_train.pth
+2022-10-02 16:04:23,833 - Ckpt load: HNet
+2022-10-02 16:04:23,835 - Starting test
+2022-10-02 16:09:27,570 - Output and logs will be saved to experiments/pre_train/evaluate.log
+2022-10-02 16:09:27,571 - Creating the dataset...
+2022-10-02 16:09:27,571 - Dataset type: homo, transform type: homo
+2022-10-02 16:09:27,572 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-02 16:09:27,573 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-02 16:09:58,679 - Loaded models from: experiments/pre_train/pre_train.pth
+2022-10-02 16:09:58,679 - Ckpt load: HNet
+2022-10-02 16:09:58,681 - Starting test
+2022-10-02 16:10:51,480 - Output and logs will be saved to experiments/pre_train/evaluate.log
+2022-10-02 16:10:51,480 - Creating the dataset...
+2022-10-02 16:10:51,481 - Dataset type: homo, transform type: homo
+2022-10-02 16:10:51,481 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-02 16:10:51,481 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-02 16:11:22,468 - Loaded models from: experiments/pre_train/pre_train.pth
+2022-10-02 16:11:22,468 - Ckpt load: HNet
+2022-10-02 16:11:22,471 - Starting test
+2022-10-02 16:15:22,217 - Output and logs will be saved to experiments/pre_train/evaluate.log
+2022-10-02 16:15:22,217 - Creating the dataset...
+2022-10-02 16:15:22,217 - Dataset type: homo, transform type: homo
+2022-10-02 16:15:22,218 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-02 16:15:22,218 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-02 16:15:39,707 - Output and logs will be saved to experiments/pre_train/evaluate.log
+2022-10-02 16:15:39,708 - Creating the dataset...
+2022-10-02 16:15:39,708 - Dataset type: homo, transform type: homo
+2022-10-02 16:15:39,708 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-02 16:15:39,708 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-02 16:16:07,925 - Loaded models from: experiments/pre_train/pre_train.pth
+2022-10-02 16:16:07,925 - Ckpt load: HNet
+2022-10-02 16:16:07,928 - Starting test
+2022-10-02 16:16:33,985 - Output and logs will be saved to experiments/pre_train/evaluate.log
+2022-10-02 16:16:33,985 - Creating the dataset...
+2022-10-02 16:16:33,985 - Dataset type: homo, transform type: homo
+2022-10-02 16:16:33,986 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-02 16:16:33,986 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-02 16:17:02,612 - Loaded models from: experiments/pre_train/pre_train.pth
+2022-10-02 16:17:02,612 - Ckpt load: HNet
+2022-10-02 16:17:02,614 - Starting test
+2022-10-02 16:19:50,741 - Output and logs will be saved to experiments/pre_train/evaluate.log
+2022-10-02 16:19:50,741 - Creating the dataset...
+2022-10-02 16:19:50,741 - Dataset type: homo, transform type: homo
+2022-10-02 16:19:50,742 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-02 16:19:50,742 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-02 16:20:23,705 - Loaded models from: experiments/pre_train/pre_train.pth
+2022-10-02 16:20:23,705 - Ckpt load: HNet
+2022-10-02 16:20:23,708 - Starting test
+2022-10-02 16:23:01,730 - Output and logs will be saved to experiments/pre_train/evaluate.log
+2022-10-02 16:23:01,730 - Creating the dataset...
+2022-10-02 16:23:01,731 - Dataset type: homo, transform type: homo
+2022-10-02 16:23:01,731 - Train transforms: ToPILImage, ToTensor, Normalize, Grayscale
+2022-10-02 16:23:01,731 - Val and Test transforms: ToPILImage, Resize, ToTensor, Normalize, Grayscale
+2022-10-02 16:23:30,462 - Loaded models from: experiments/pre_train/pre_train.pth
+2022-10-02 16:23:30,462 - Ckpt load: HNet
+2022-10-02 16:23:30,465 - Starting test
