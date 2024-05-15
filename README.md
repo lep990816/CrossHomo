@@ -8,7 +8,7 @@
 - matplotlib
 
 ## 2.Dataset
-DPDN and RGB-NIR Scene Dataset.
+After downloading DPDN and RGB-NIR Scene Dataset, please run ···generate_dataset_DPDN.py``` to generate .npy files for training and testing. 
 
 ## 3.Training
 
