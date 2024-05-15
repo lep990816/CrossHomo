@@ -23,3 +23,7 @@ Run the following command.
 ```
 python train_SR_Homo_level2.py --name Level2 --dataset DPDN --batch_size 8 --downsample 4 --Level 2 --load_latest 0
 ```
+
+## 4.Checkpoints
+链接：https://pan.baidu.com/s/1_z6YI_BkEfyd7jXqj9QWmA?pwd=BuAa 
+提取码：BuAa 
