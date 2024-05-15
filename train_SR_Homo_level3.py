@@ -16,7 +16,7 @@ from common import utils
 from common.manager import Manager
 import kornia
 
-os.environ['CUDA_VISIBLE_DEVICES'] = "0"
+os.environ['CUDA_VISIBLE_DEVICES'] = "3"
 
 def psnr(img1, img2):
     img1[img1 > 1.0] = 1.0
@@ -80,7 +80,7 @@ def train(args, params1, params2, params3):
     random.seed(seed)
     torch.manual_seed(seed)
     MODEL_SAVE_DIR = 'checkpoints_level3/checkpoints_' + args.model_name + '_' + args.name + '_'+ str(args.w_H) + '_'+ str(args.w_SR) + '_'+ str(args.w_Per) + '/'
-    MODEL_SAVE_DIR2 = 'checkpoints_level3/checkpoints_Homonet_level3_test4/'
+    MODEL_SAVE_DIR2 = 'checkpoints_level3/checkpoints_Homonet_NIR_test4/'
     if not os.path.exists(MODEL_SAVE_DIR):
         os.makedirs(MODEL_SAVE_DIR)
 
@@ -146,10 +146,10 @@ def train(args, params1, params2, params3):
     if args.load_latest == 1:
         print('===> Loading best model...')
         id = 0
-        state_freeze = torch.load('/temp_disk2/lep/SR_Homo/HomoGAN-main/checkpoints/checkpointsHomonet_DPDN_CNN2/best.pth')
+        # state_freeze = torch.load('/temp_disk2/lep/SR_Homo/HomoGAN-main/checkpoints/checkpointsHomonet_DPDN_CNN2/best.pth')
         for id in range(3):
             state = torch.load(MODEL_SAVE_DIR2 + 'Level%d_best.pth' % (id))
-            # state = torch.load(MODEL_SAVE_DIR2 + 'Level%d_best.pth' % (id))
+            # state = torch.load(MODEL_SAVE_DIR + 'Level%d_lastest.pth' % (id))
             model_dict =  models[id].state_dict()
             # state_dict = {k:v for k,v in state['state_dict'].items() if k not in freeze_list}
             # model_dict.update(state_dict)
@@ -205,6 +205,8 @@ def train(args, params1, params2, params3):
             input1_ori = input1.clone()
             input2_ori = input2.clone()
             input1_2x = nn.functional.interpolate(input1, scale_factor=0.5, mode='bicubic', align_corners=False)
+            # input1_2x[input1_2x > 1.0] = 1.0
+            # input1_2x[input1_2x < 0.0] = 0.0
             input1_4x = nn.functional.interpolate(input1_2x, scale_factor=0.5, mode='bicubic', align_corners=False)
             input1_list = [input1_4x,input1_2x,input1_ori]
             input2_2x = nn.functional.interpolate(input2, scale_factor=0.5, mode='bicubic', align_corners=False)
@@ -499,16 +501,16 @@ if __name__ == "__main__":
     epochs = int(total_iteration / steps_per_epoch)
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("--name", type=str, default='DPDN_small', help="name")
-    parser.add_argument("--dataset", type=str, default='NIR', help="name")
+    parser.add_argument("--name", type=str, default='GoogleEarth', help="name")
+    parser.add_argument("--dataset", type=str, default='GoogleEarth', help="name")
 
     parser.add_argument("--batch_size", type=int, default=4, help="batch size")
     parser.add_argument("--learning_rate", type=float, default=0.0001, help="learning rate")
     parser.add_argument("--epochs", type=int, default=100, help="number of epochs")
 
-    parser.add_argument("--train_path", type=str, default='/temp_disk2/lep/SR_Homo/Data/DPDN/',
+    parser.add_argument("--train_path", type=str, default='/temp_disk2/lep/SR_Homo/Data/GoogleEarth/',
                         help="path to training imgs")
-    parser.add_argument("--val_path", type=str, default='/temp_disk2/lep/SR_Homo/Data/DPDN/',
+    parser.add_argument("--val_path", type=str, default='/temp_disk2/lep/SR_Homo/Data/GoogleEarth/',
                         help="path to validation imgs")
     parser.add_argument('--downsample', type=int, default=8)
     parser.add_argument('--model_name', type=str, default='Homonet')
